@@ -6,6 +6,11 @@ app.get("/", (req, res) => {
   res.send("Hello BiMeow!");
 });
 
+app.get("/account", (req, res) => {
+  res.send("Hello BiMeow Account!");
+});
+
+
 app.listen(port, () => {
   console.log(`BiMeow app listening on port ${port}`);
 });
